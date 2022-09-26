@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand ms-5" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 pb-2">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
               </li>
@@ -30,7 +30,6 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
@@ -39,8 +38,14 @@
               </li>
             </ul>
             <form class="d-flex">
-              <button class="btn0">register</button>
-              <button class="btn1 mx-2">login</button>
+              <div class="wrapper">
+              <button class="btn0" id="slide" ></button>
+              <span id="text-register" class=" ps-5 pt-2">register</span>
+              </div>
+              <div class="wrapper2">
+              <button class="btn1 mx-2 me-4"></button>
+              <span id="text-login" >login</span>
+              </div>
             </form>
           </div>
         </div>
