@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+}
+
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+.nav-link:hover{
+    color: red;
+}
+
+.nav-item{
+    color: rgb(7, 7, 78);
+    padding-left: 35px;
+}
+
+.btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(248, 83, 83);
+}
+
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(248, 20, 20);
+    outline: none;
+    border: 2px solid rgb(248, 20, 20);
+}
+
+.main{
+    background: url(/assets/img/handsomecopy.jpg);
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+/*ceta*/
+.red{
+    color: red;
+}
+
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78);
+}
+
+.ceta.card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
+}
+
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130, 130, 231);
+    background: transparent;
+    color: rgb(130, 130, 231);
+    transition: all 0.4s;
+}
+
+.resume{
+    background: linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(/assets/img/woman.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.resume h1{
+    font-size: 3.8rem;
+    padding-left: 100;
+}
+
+.featured-jobs.card:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.apply-process{
+    background: url(/assets/img/cool-background.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.apply{
+    background: url(/assets/img/cool-background.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: white;
+}
+
+.cir1{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cir1 img{
+    border-radius: 50%;
+}
+
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.perac{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.btn5{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78);
+}
+
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    color: white;
+    transition: all 0.4s;
+}
+
+.blog .card-body:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.blog .card-body .pic-card{
+    zoom: 20;
+}
+
+.footer{
+    background: #121626;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}
+
+.link:hover{
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer button{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    padding-left: -10px;
+    border-top: 1px solid #ff2962;
+    background: #ff2962;
+    color: white;
+    margin-top: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
