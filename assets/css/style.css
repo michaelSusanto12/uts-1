@@ -37,7 +37,7 @@
     position: relative;
     overflow: hidden;
     width: 150px;
-    background-color: #ff2962;
+    background-color: #fb246a;
     margin-right: 50;
     cursor: pointer;
     left: 30;
@@ -47,7 +47,6 @@
     position: absolute;
     padding-left: 30;
     padding-top: 5;
-    
     color: white;   
 }
 
@@ -63,7 +62,7 @@
 
 .btn1{
     height: 40px;
-    width: 130px;
+    width: 150px;
     background-color: transparent;
     color: rgb(248, 20, 20);
     outline: none;
@@ -84,11 +83,13 @@
 
 /*ceta*/
 .red{
-    color: red;
+    padding-top: 100px;
+    color: #fb246a;
+    font-size: 0.75rem;
 }
 
 .ceta h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: rgb(7, 7, 78);
 }
 
@@ -118,8 +119,25 @@
 }
 
 .resume h1{
-    font-size: 3.8rem;
+    font-size: 3.1rem;
     padding-left: 100;
+}
+
+.resume p{
+    font-size: 0.75rem;
+    color: white;
+}
+
+.resume .btn3{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.resume .btn3:hover{
+color: #fb246a;
+padding-left: 10px;
+transition: all 0.4s;
+cursor: pointer;
 }
 
 .featured-jobs.card:hover{
@@ -128,22 +146,32 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.apply-process{
-    background: url(/assets/img/cool-background.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+.featured-jobs h1{
+    color: #28395A;
+    font-size: 2.5rem;
+}
+
+.featured-jobs .card p{
+    color:#253a8e;
 }
 
 .apply{
-    background: url(/assets/img/cool-background.png);
+    background: linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(/assets/img/cool-background.png);
     background-size: cover;
     height: 100%;
     width: 100%;
 }
 
+.apply h1{
+    color: white;
+}
+
+.apply p{
+    color: #A5AACA;
+}
+
 .apply .card{
-    background-color: rgba(4, 26, 100, 0.801);
+    background-color: #26317F;
     color: white;
 }
 
@@ -183,7 +211,7 @@
 
 .job h1{
     font-size: 3.5rem;
-    color: rgb(7, 7, 78);
+    color: #28395a;
 }
 
 .btn4{
@@ -194,6 +222,16 @@
     background: rgb(243, 73, 73);
     color: white;
     transition: all 0.4s;
+}
+
+.blog p{
+    font-size: 0.75rem;
+    color: #fb246a;
+}
+
+.blog h1{
+    font-size: 2.5rem;
+    color: #28395a;
 }
 
 .blog .card-body:hover{
