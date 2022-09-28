@@ -390,3 +390,9 @@
   .slide_diagonal:hover{
     box-shadow: inset 400px 50px 0 0 #D80286;
   }
+
+  .card-body_featured{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
