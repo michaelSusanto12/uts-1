@@ -77,8 +77,8 @@
 }
 
 .main h1{
-    font-size: 5rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 /*ceta*/
@@ -93,7 +93,7 @@
     color: rgb(7, 7, 78);
 }
 
-.ceta.card:hover{
+.ceta .card:hover{
     color: red;
     cursor: pointer;
     transition: all 0.3s;
@@ -290,15 +290,15 @@ cursor: pointer;
 }
 
 .main input{
-    height: 71px;
-    width: 60%;
+    height: 50px;
+    width: 50%;
     border: none;
     outline: none;
     padding: 15px;
 }
 
 .btn2{
-    height: 70px;
+    height: 50px;
     width: 25%;
     background-color: rgb(243, 73, 73);
     color: white;
@@ -310,8 +310,9 @@ cursor: pointer;
 }
 
 .button_slide{
-    color: #FFF;
-  border: 2px solid rgb(216, 2, 134);
+    color: pink;
+    background-color: #fb246a;
+  border: none;
   border-radius: 0px;
   padding: 10px 40px;
   display: inline-block;
@@ -320,11 +321,47 @@ cursor: pointer;
   letter-spacing: 1px;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #D80286;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.6s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 .slide_right:hover {
     box-shadow: inset 400px 0 0 0 #D80286;
   }
+
+.button_slide_categories{
+    color: pink;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+
+.button_slide_resume{
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 5px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
