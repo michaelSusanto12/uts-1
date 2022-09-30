@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
-
 .navbar-brand{
     font-size: 2rem;
     color: red;
@@ -330,7 +327,7 @@
   }
 
   .button_slide_register{
-    color: blue;
+    color: n;
     border: 2px solid rgb(216, 2, 134);
     border-radius: 0px;
     display: inline-block;
