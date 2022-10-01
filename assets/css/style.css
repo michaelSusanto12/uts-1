@@ -42,6 +42,7 @@
 }
 
 #text-register{
+    font-family: arial;
     position: absolute;
     padding-left: 30;
     padding-top: 5;
@@ -317,7 +318,7 @@
   border-radius: 0px;
   padding: 10px 50px;
   display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: arial;
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
