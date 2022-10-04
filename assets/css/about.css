@@ -69,88 +69,50 @@
     border: 2px solid rgb(248, 20, 20);
 }
 
-.main{
-    background: url(/assets/img/handsomecopy.jpg);
+.about-contact{
+    background: linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(/assets/img/aboutus.jpg) no-repeat;
     background-size: cover;
-    min-height: 95vh;
+    min-height: 50vh;
+    height: 100%;
     width: 100%;
+    position: relative;
+    text-align: center;
 }
 
-.main h1{
-    padding-bottom: 70px;
-    font-size: 5.5rem;
-    font-weight: 700;
-    color: #28395a;
+.about-contact h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
 }
 
-/*ceta*/
-.red{
-    padding-top: 100px;
-    color: #fb246a;
-    font-size: 0.75rem;
-}
-
-.ceta h1{
-    font-size: 3.5rem;
-    padding-bottom: 80px;
-    color: rgb(7, 7, 78);
-}
-
-.ceta .card:hover{
-    color: #fb246a;
-    cursor: pointer;
-    transition: all 0.3s;
-    box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
--webkit-box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
--moz-box-shadow: 0px 11px 26px -14px rgba(0,0,0,0.45);
-}
-
-.btn3{
-    height: 70px;
-    width: 70%;
-    border: 1px solid rgb(130, 130, 231);
-    background: transparent;
-    color: rgb(130, 130, 231);
-    transition: all 0.4s;
-}
-
-.resume{
-    background: linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(/assets/img/woman.jpg) no-repeat;
+.apply{
+    background: linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(/assets/img/cool-background.png);
     background-size: cover;
     height: 100%;
     width: 100%;
 }
 
-.resume h1{
-    font-size: 2.7rem;
-    padding-left: 100;
-}
-
-.resume p{
-    font-size: 1rem;
+.apply h1{
     color: white;
 }
 
-.resume .btn3{
-    width: 40%;
-    border-radius: 5px;
+.apply p{
+    color: #A5AACA;
 }
 
-
-
-.featured-jobs.card:hover{
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.apply .card{
+    background-color: #26317F;
+    color: white;
 }
 
-.featured-jobs h1{
-    color: #28395A;
-    font-size: 2rem;
-}
-
-.featured-jobs .card p{
-    color:#253a8e;
+.cir1{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border-radius: 100%;
+    display: inline-block;
 }
 
 .card-body h2{
@@ -196,26 +158,6 @@
     background: #fb246a;
     color: white;
     transition: all 0.4s;
-}
-
-.blog p{
-    font-size: 0.75rem;
-    color: #fb246a;
-}
-
-.blog h1{
-    font-size: 2.5rem;
-    color: #28395a;
-}
-
-.blog .card-body:hover{
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-.blog .card-body .pic-card{
-    zoom: 20;
 }
 
 .footer{
@@ -326,24 +268,6 @@
     box-shadow: inset 0 100px 0 0 #8b92dd;
     color: white;
   }
-
-.button_slide_resume{
-    color: #8b92dd;
-    border: 1px solid rgb(130, 130, 231);
-    border-radius: 3px;
-    padding: 18px 36px;
-    display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 10px;
-    letter-spacing: 1px;
-    padding: 10px 45px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #8b92dd;
-    -webkit-transition: ease-out 0.8s;
-    -moz-transition: ease-out 0.8s;
-    transition: ease-out 0.6s;
-    background: transparent;
-}
 
 .flip-vertical-right {
 	-webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
