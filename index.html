@@ -8,8 +8,11 @@
     <title>Job Finder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets\css\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <img class=" ms-3" src="/assets/img/logos-removebg-preview.png" style="width: 5rem;"alt="...">
         <div class="container-fluid">
@@ -195,45 +198,149 @@
       </section>
 
 
-      <section class="featured-jobs">
-        <div class="container-fluid py-5 text-center">
-          <p style="color:#fb246a; padding-top: 100px;">RECENT JOB</p>
-          <h1 class=" pb-5">Featured Jobs</h1>
-          <div class="card mb-3 mt-5 border-0 col-10 mx-auto">
-            <img src="https://lelogama.go-jek.com/cms_editor/2021/05/28/info-gojek-2.png" class="images1 pt-4 position-absolute" alt="..." height="100" width="80" >
-            <div class="card-body ">
-              <button class=" float-end">full time</button>
-              <h5 class="card-title">Digital Marketer</h5>
-              <pre class="card-text">Transportation Agency       Jakarta, Indonesia       Rp10.000.000 - 20.000.000/month </p>
-              <p class="card-text"><small class="text-muted ps-5 ">Last updated 12 hours ago</small></p>
+      <section class="featured-job-area feature-padding my-5">
+        <div class="container ">
+            <!-- Section Tittle -->
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="section-tittle text-center mt-5">
+                        <span>Recent Job</span>
+                        <h2>Featured Jobs</h2>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card mb-3 mt-5 border-0 col-10 mx-auto">
-            <img src="data:image/png;base64,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" class="images1 pt-4 position-absolute" alt="..." height="100" width="80" >
-            <div class="card-body">
-              <h5 class="card-title ms-5">Digital Marketer</h5>
-              <pre class="card-text">Online Application       Jakarta, Indonesia       Rp7.000.000 - 15.000.000/month</p>
-              <p class="card-text"><small class="text-muted ps-5 ">Last updated 14 hours ago</small></p>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="job_details.html"><img src="/assets/img/gojek-removebg-preview.png" alt="" class="img-preview" style="width: 60px;" height="50px"></a>
+                            </div>
+                            <div class="job-tittle">
+                                <a href="job_details.html" style="text-decoration: none;"><h4> Digital Marketer</h4></a>
+                                <ul>
+                                    <li class="text-first">Creative Agency</li>
+                                    <li><i class="fa fa-map-marker"></i>Athens, Greece</li>
+                                    <li> <i class="fa fa-money" aria-hidden="true"></i>$3500 - $4000</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="items-link f-right">
+                            <a style="text-decoration: none;">Full Time</a>
+                            <span>7 hours ago</span>
+                        </div>
+                    </div>
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                      <div class="job-items">
+                          <div class="company-img">
+                              <a href="job_details.html"><img src="/assets/img/gojek-removebg-preview.png" alt="" class="img-preview" style="width: 60px;" height="50px"></a>
+                          </div>
+                          <div class="job-tittle">
+                              <a href="job_details.html" style="text-decoration: none;"><h4> Digital Marketer</h4></a>
+                              <ul>
+                                  <li class="text-first">Creative Agency</li>
+                                  <li><i class="fa fa-map-marker"></i>Athens, Greece</li>
+                                  <li> <i class="fa fa-money" aria-hidden="true"></i>$3500 - $4000</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="items-link f-right">
+                          <a style="text-decoration: none;">Full Time</a>
+                          <span>7 hours ago</span>
+                      </div>
+                  </div>
+                     <!-- single-job-content -->
+                     <div class="single-job-items mb-30">
+                      <div class="job-items">
+                          <div class="company-img">
+                              <a href="job_details.html"><img src="/assets/img/gojek-removebg-preview.png" alt="" class="img-preview" style="width: 60px;" height="50px"></a>
+                          </div>
+                          <div class="job-tittle">
+                              <a href="job_details.html" style="text-decoration: none;"><h4> Digital Marketer</h4></a>
+                              <ul>
+                                  <li class="text-first">Creative Agency</li>
+                                  <li><i class="fa fa-map-marker"></i>Athens, Greece</li>
+                                  <li> <i class="fa fa-money" aria-hidden="true"></i>$3500 - $4000</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="items-link f-right">
+                          <a style="text-decoration: none;">Full Time</a>
+                          <span>7 hours ago</span>
+                      </div>
+                  </div>
+                     <!-- single-job-content -->
+                     <div class="single-job-items mb-30">
+                      <div class="job-items">
+                          <div class="company-img">
+                              <a href="job_details.html"><img src="/assets/img/gojek-removebg-preview.png" alt="" class="img-preview" style="width: 60px;" height="50px"></a>
+                          </div>
+                          <div class="job-tittle">
+                              <a href="job_details.html" style="text-decoration: none;"><h4> Digital Marketer</h4></a>
+                              <ul>
+                                  <li class="text-first">Creative Agency</li>
+                                  <li><i class="fa fa-map-marker"></i>Athens, Greece</li>
+                                  <li> <i class="fa fa-money" aria-hidden="true"></i>$3500 - $4000</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="items-link f-right">
+                          <a style="text-decoration: none;">Full Time</a>
+                          <span>7 hours ago</span>
+                      </div>
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="card mb-3 mt-5 border-0 col-10 mx-auto">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4O2aFFVZhToSWVgjB2CkOocPz3AG6RfbOmjIDvTE&s" class="images1 pt-4 position-absolute" alt="..." height="100" width="80" >
-            <div class="card-body">
-              <h5 class="card-title">Customer Service</h5>
-              <pre class="card-text">Online Application      Jakarta, Indonesia       Rp4.500.000 - 6.000.000/month</p>
-              <p class="card-text"><small class="text-muted ps-5 ">Last updated 20 hours ago</small></p>
+        </div>
+<<<<<<< HEAD
+
+=======
+    </section>
+
+
+      <section class="apply py-5">
+        <div class="container text-center py-5">
+          <p class="red" style="color:#fb246a; padding-top: 10px;">APPLY PROCESS</p>
+          <h1>How It Works</h1>
+          <div class="row py-5">
+            <div class="col-lg-4">
+              <div class="card p-2">
+                <div class="card-body text-center">
+                  <div class="cir1 pt-3 mb-3">
+                    <img src="/assets/img/search.png" alt="bg" class="search-card">
+                  </div>
+                  <h2>1. Search a job</h2>
+                  <p class="py-3">Lorem ipsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card mb-3 mt-5 border-0 col-10 mx-auto">
-            <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png" class="images1 pt-4 position-absolute" alt="..." height="100" width="80" >
-            <div class="card-body">
-              <h5 class="card-title">Digital Marketer</h5>
-              <pre class="card-text">Music & Audio Application       Stockholm, Swedia       Rp1.200.000.000 - 1.700.000.000/year</p>
-              <p class="card-text"><small class="text-muted ps-5 ">Last updated 22 hours ago</small></p>
+            <div class="col-lg-4">
+              <div class="card p-2">
+                <div class="card-body text-center">
+                  <div class="cir1 pt-3 mb-3">
+                    <img src="/assets/img/apply.png" alt="bg" class="search-card">
+                  </div>
+                  <h2>2. Apply for a job</h2>
+                  <p class="py-3">Lorem ipsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card p-2">
+                <div class="card-body text-center">
+                  <div class="cir1 pt-3 mb-3">
+                    <img src="/assets/img/get.png" alt="bg" class="search-card">
+                  </div>
+                  <h2>3. Get your job</h2>
+                  <p class="py-3">Lorem ipsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
+>>>>>>> 192af51527d70bd80bb0fb59ce297d1925500efc
       </section>
 
       <section class="slider py-5">
