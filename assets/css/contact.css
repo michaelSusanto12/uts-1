@@ -124,13 +124,13 @@
 
   .container-responsive{
     position: relative;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     padding-top: 56.25%;
     min-height: 50vh;
     min-width: 50vh;
     margin-top: 7rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
 
   .responsive-iframe{
@@ -190,9 +190,9 @@ input[type=text], select, textarea {
   padding-bottom: 70px;
 }
 
-  .footer{
-    background: #121626;
-    color: white;
+.footer{
+  background: #121626;
+  color: white;
 }
 
 .footer p{
