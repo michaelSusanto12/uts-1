@@ -9,6 +9,18 @@
     color: red;
 }
 
+.scrollup {
+  width:40px;
+  height:40px;
+  opacity:0.3; 
+  position:fixed;
+  bottom:50px;
+  right:100px;
+  display:none;
+  text-indent:-9999px;
+  background: url(http://seenual.com/wp-content/uploads/2016/03/icon_top.png) no-repeat;
+}
+
 .nav-link{
     color: rgb(10, 10, 94);
 }
