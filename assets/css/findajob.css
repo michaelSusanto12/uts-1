@@ -796,11 +796,12 @@
     }
   }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .job-category-listing .single-listing .select-job-items2 .nice-select {
+    .job-category-listing .single-listing .
+    2 .nice-select {
       margin-bottom: 20px;
       padding-left: 25px;
     }
-  }
+  
   .job-category-listing .single-listing .select-job-items2 .nice-select .list {
     width: 100%;
   }
