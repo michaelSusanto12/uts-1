@@ -487,6 +487,8 @@
   }
   .blog_right_sidebar .single_sidebar_widget .btn_1 {
     margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .blog_right_sidebar .search_widget .form-control {
     height: 50px;
